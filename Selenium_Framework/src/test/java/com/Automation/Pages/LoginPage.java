@@ -12,7 +12,9 @@ public class LoginPage {
 		this.driver = driver;
 
 	}
-
+    
+	//This is to test my GIT
+	
 	@FindBy(xpath = "//input[@name='txtUsername']")
 	WebElement userName;
 	@FindBy(xpath = "//input[@name='txtPassword']")
